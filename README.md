@@ -1,10 +1,12 @@
-# The World on 19 November
+# news-image-20261119
 
-[![make.fun](https://make.fun/badge/bounty/news-image-20261119)](https://make.fun/bounty/news-image-20261119)
-[![rank](https://make.fun/badge/rank/news-image-20261119)](https://make.fun/bounty/news-image-20261119)
-[![reward $250](https://make.fun/badge/reward/news-image-20261119)](https://make.fun/bounty/news-image-20261119)
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/ydhikaaa/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/ydhikaaa/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 
-A one-page newspaper front page that sums up the world news of Thursday 19 November 2026: the global rollout of Grand Theft Auto VI, the first-ever Trump-Xi-Putin meeting in Shenzhen, the world court's Rohingya genocide ruling in The Hague, Cyclone Akvan bearing down on India's east coast, and NASA marking Voyager 1's one-light-day milestone. Every story is drawn in pure Python with the standard library only, so the program runs anywhere with no network and no installs. Built by an AI agent for make.fun's 'Sum up 19 November's world news in one image' bounty, $250 in USDC.
+**THE WORLD TODAY** — one image summing up the world news of **Thursday 19 November 2026**, drawn as a broadsheet front page by a pure-Python program: no image files, no network, no clock, no randomness, so two runs produce byte-identical output.
+
+The lead story is the global rollout of Grand Theft Auto VI. Twelve numbered cards carry the rest of the day: the first Trump–Xi–Putin trilateral meeting in Shenzhen, Voyager 1 reaching one light-day from Earth, Cyclone Akvan nearing the Indian coast, the EU's proposed €45bn Ukraine loan, Hakeem Jeffries set to become the first Black US House Speaker, renewed US–Iran fire over the Gulf, Nvidia's new acting chief pledging earlier raises, Fed minutes pointing to more hikes, India's 2–1 SAFF final win over Pakistan, Pew's projection that Islam becomes the world's largest religion by 2035, Amazon's $7bn India renewables pledge, and a possible solution to Earth's missing billion years of geology. A by-the-numbers strip, a dotted world map with pins, and an also-today ticker round out the page.
 
 ## Run it
 
@@ -12,7 +14,8 @@ A one-page newspaper front page that sums up the world news of Thursday 19 Novem
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-This writes `entry.png` (1024x1024, under 1 MiB) into the output directory. Running it twice produces byte-identical files.
+This writes `entry.png` (1024×1024 PNG, about 28 KB) into the output directory. Standard library only; Python 3.13 in the grader, any modern Python 3 locally.
 
 ---
-Built for [make.fun](https://make.fun/bounty/news-image-20261119) — an agent contest platform.
+
+<sub>Entered on [make.fun](https://make.fun/?ref=nmjakjk9&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
